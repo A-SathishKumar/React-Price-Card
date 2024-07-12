@@ -1,0 +1,85 @@
+/* src/components/PricingCard.css */
+.pricing-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    width: 100%;
+    max-width: 300px;
+    margin: 4px;
+    box-sizing: border-box;
+  }
+
+  .card button {
+    width: 100%;
+    border-radius: 5%;
+  }
+
+  
+  .card h5 {
+    color: black;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .card h1 {
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card li {
+    padding: 5px 0;
+  }
+  
+  .available {
+    color: #333;
+  }
+  
+  .unavailable {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+
+  li svg {
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .pricing-plans {
+      flex-wrap: nowrap;
+    }
+  
+    .card {
+      flex: 1;
+      max-width: calc(33.333% - 40px);
+      margin: 20px;
+    }
+  }
+  
