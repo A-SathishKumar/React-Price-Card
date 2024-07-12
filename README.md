@@ -1,8 +1,19 @@
-# React + Vite
+# React-Price-card
+## Overview
+This is the Demo Price Card Design Created by React for Training Purpose.
+In this Project Using React Components to achive this task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo:
+[Live Demo](https://react-prices-card.netlify.app/)
 
-Currently, two official plugins are available:
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contact
+For questions or suggestions, feel free to contact:
+
+- **A.Sathish Kumar** [sathishkumarannadurai12@gmail.com](mailto:sathishkumarannadurai12@gmail.com)
+- **GitHub:** [A-SathishKumar] (https://github.com/A-SathishKumar)
